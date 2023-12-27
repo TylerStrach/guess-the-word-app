@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.*?>
+
+<?import javafx.scene.text.Text?>
+<BorderPane styleClass="root" xmlns:fx="http://javafx.com/fxml" fx:controller="ClientController" prefHeight="400" prefWidth="600">
+    <center>
+        <VBox alignment="TOP_CENTER" spacing="20">
+            <TextField alignment="CENTER"
+                       styleClass="title"
+                       prefWidth="400"
+                       editable="false"
+                       text="Play Guess the Word!"
+            />
+            <Text wrappingWidth="600"
+                  fx:id="directions"
+                  styleClass="directions"
+                  text="Welcome to Guess the word, in order to win you must correctly guess a word from each of the 3
+categories below. You have 3 chances to guess the word in each category, and for each word you only have 6 letter guesses.
+Good luck!"
+            />
+        </VBox>
+    </center>
+
+    <bottom>
+        <VBox spacing="25">
+            <HBox alignment="BOTTOM_CENTER" spacing="25">
+                <Button fx:id="topic1" styleClass="topics" alignment="CENTER" text="SPORTS" onAction="#guessGame1"/>
+                <Button fx:id="topic2" styleClass="topics" alignment="CENTER" text="COMPUTERS" onAction="#guessGame2"/>
+                <Button fx:id="topic3" styleClass="topics" alignment="CENTER" text="FOODS" onAction="#guessGame3"/>
+            </HBox>
+        </VBox>
+    </bottom>
+
+    <BorderPane.margin>
+        <Insets top="50" bottom="50" left="50" right="50"/>
+    </BorderPane.margin>
+
+</BorderPane>

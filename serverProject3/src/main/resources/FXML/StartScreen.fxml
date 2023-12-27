@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.*?>
+
+<BorderPane styleClass="root" xmlns:fx="http://javafx.com/fxml" fx:controller="ServerController" prefHeight="400" prefWidth="600">
+
+    <center>
+        <VBox alignment="CENTER" spacing="100">
+            <TextField alignment="CENTER"
+                       styleClass="title"
+                       prefWidth="400"
+                       editable="false"
+                       text="Welcome to Guess the Word (SERVER)!"
+            />
+            <HBox alignment="CENTER" spacing="100">
+                <TextField fx:id="title_directions"
+                           prefWidth="300"
+                           promptText="Enter port number for server and press enter."
+                           onKeyPressed="#portInput"
+                />
+            </HBox>
+        </VBox>
+    </center>
+
+    <BorderPane.margin>
+        <Insets top="20" bottom="20" left="20" right="20"/>
+    </BorderPane.margin>
+
+</BorderPane>

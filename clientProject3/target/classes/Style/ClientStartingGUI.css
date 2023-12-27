@@ -1,0 +1,18 @@
+.root{
+    -fx-background-color: lightgreen;
+}
+
+.title{
+    -fx-font-size: 36px;
+    -fx-font-weight: bold;
+    -fx-background-color: lightgreen;
+    -fx-font-family: "Impact";
+}
+
+.directions{
+    -fx-font-size: 14px;
+    -fx-font-family: "Times New Roman";
+    -fx-background-color: lightgreen;
+}
+
+

@@ -1,0 +1,17 @@
+.root{
+    -fx-background-color: lightblue;
+}
+
+.title{
+    -fx-font-size: 26px;
+    -fx-font-weight: bold;
+    -fx-font-family: "Impact";
+    -fx-background-color: lightblue;
+}
+
+.log{
+    -fx-font-size: 12px;
+    -fx-font-family: "Fira Code";
+}
+
+

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.*?>
+
+<?import javafx.scene.text.Text?>
+<BorderPane styleClass="root" xmlns:fx="http://javafx.com/fxml" fx:controller="ClientController" prefHeight="400" prefWidth="600">
+    <top>
+        <HBox alignment="CENTER">
+            <TextField fx:id="category" alignment="CENTER" styleClass="categories" editable="false" />
+            <TextField fx:id="lives" alignment="TOP_RIGHT" styleClass="lives" editable="false" text="6" />
+        </HBox>
+    </top>
+
+    <center>
+        <HBox alignment="CENTER" spacing="20">
+            <TextField fx:id="letter0" alignment="CENTER" styleClass="letters" editable="false" text="X"/>
+            <TextField fx:id="letter1" alignment="CENTER" styleClass="letters" editable="false" text="X"/>
+            <TextField fx:id="letter2" alignment="CENTER" styleClass="letters" editable="false" text="X"/>
+            <TextField fx:id="letter3" alignment="CENTER" styleClass="letters" editable="false" text="X"/>
+            <TextField fx:id="letter4" alignment="CENTER" styleClass="letters" editable="false" text="X"/>
+        </HBox>
+    </center>
+
+    <bottom>
+        <HBox alignment="CENTER" spacing="25">
+            <TextField fx:id="letter_guess" alignment="CENTER" styleClass="" editable="true" promptText="enter uppercase letter"/>
+            <Button fx:id="confirmButton" styleClass="confirmButton" alignment="CENTER" text="CONFIRM" onAction="#userGuess"/>
+            <Button fx:id="serverResponse" styleClass="serverButton"  text="RESULT"/>
+        </HBox>
+    </bottom>
+
+    <BorderPane.margin>
+        <Insets top="50" bottom="50" left="50" right="50"/>
+    </BorderPane.margin>
+
+</BorderPane>

@@ -1,0 +1,49 @@
+.root{
+    -fx-background-color: royalblue;
+}
+
+.categories{
+    -fx-font-size: 36px;
+    -fx-text-fill: black;
+    -fx-background-color: royalblue;
+    -fx-font-family: "Impact";
+    -fx-max-width: 400;
+}
+
+.lives{
+    -fx-font-size: 36px;
+    -fx-background-color: royalblue;
+    -fx-text-fill: maroon;
+    -fx-font-family: "Impact";
+    -fx-max-width: 100;
+}
+
+.letters{
+    -fx-pref-width: 100;
+    -fx-pref-height: 100;
+    -fx-font-size: 50px;
+    -fx-font-family: "Impact";
+    -fx-background-color: black;
+    -fx-text-fill: white;
+}
+
+.confirmButton{
+    -fx-pref-height: 25;
+    -fx-pref-width: 60;
+    -fx-font-size: 12px;
+    -fx-font-family: "Impact";
+    -fx-background-color: turquoise;
+}
+
+.serverButton{
+    -fx-pref-height: 35;
+    -fx-pref-width: 60;
+    -fx-font-size: 12px;
+    -fx-font-family: "Impact";
+    -fx-background-color: white;
+}
+
+
+
+
+
